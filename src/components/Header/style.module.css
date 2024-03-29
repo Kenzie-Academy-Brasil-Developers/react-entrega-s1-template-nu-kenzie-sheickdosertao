@@ -1,0 +1,15 @@
+.headerLogo {
+    width: 93.75rem;
+    height: 5.5rem;
+    background: --color-grey-1;
+    border: .125rem solid var(--color-grey-2);
+}
+
+img{
+    display: flex;
+    align-items: center;
+    margin-block-start: 2.3125rem;
+    margin-left: 3.125rem;
+}
+
+

@@ -1,0 +1,13 @@
+.secLista{
+    width: 560px;
+    height: 28.75rem;
+}
+
+.h23{
+    width: 8.75rem;
+    height: 1.875rem;
+    font-family: var(--font-nunito);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-grey-4);
+}

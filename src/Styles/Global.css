@@ -1,0 +1,40 @@
+:root{
+   --color-primary:  #FD377E;
+   --color-primary-2: #E34981;
+   --color-grey-4: #212529;
+   --color-placeholder:  #868E96;
+   --color-grey-2: #E9ECEF;
+   --color-grey-3: #343A40;
+   --color-grey-1: #F8F9FA;
+   --color-secundary: #03B898;
+
+  --font-inter: "Inter", sans-serif;
+  --font-nunito:  "Nunito Sans", sans-serif;
+
+}
+
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 470px 300px 300px;
+  grid-template-areas:  "a b b"
+                        "c b b ";
+  gap: 4rem;
+  height: 33rem;
+
+}
+
+#formFinance{
+  grid-area: a;
+  margin-left: 16.3125rem;
+}
+
+#listFinance{
+  grid-area: b;
+}
+
+#total{
+  grid-area: c;
+  margin-left: 16.3125rem;
+}

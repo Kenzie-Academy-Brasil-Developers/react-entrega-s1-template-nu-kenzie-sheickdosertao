@@ -1,0 +1,103 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 22.1875rem;
+    height: 24.625rem;
+    border: .0625rem solid var(--color-grey-3);
+    margin-top: 2.4375rem;
+    border-radius: .5rem;
+}
+
+.div1{
+    flex-wrap: wrap;
+    width: 19.625rem;
+    height: 6.875rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+
+.label1{
+    margin: .75rem;
+    
+    
+}
+
+.p1{
+    width: 9.875rem;
+    height: 1.25rem;
+    margin: .625rem;
+}
+
+.iput{
+    width: 16.625rem;
+    height: 3rem;
+    border: 2px solid var(--color-grey-3);
+    border-radius: .5rem;
+   padding-left: 1rem;
+   margin-inline: .625rem;
+   margin-block: .75rem;
+   background-color: var(--color-grey-1);
+   
+}
+
+.div2{
+    flex-wrap: wrap;
+    width: 19.625rem;
+    height: 10.5rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+}
+
+.label2{
+    margin: .625rem;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+.input2{
+    width: 16.625rem;
+    height: 3rem;
+    border: 2px solid var(--color-grey-3);
+    border-radius: .5rem;
+   padding-left: 1rem;
+   margin-inline: .625rem;
+   margin-top: 1rem;
+   background-color: var(--color-grey-1);
+}
+
+.label3{
+    margin: .625rem;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+.selec1{
+    width: 17.925rem;
+    height: 3rem;
+    border: 2px solid var(--color-grey-3);
+    border-radius: .5rem;
+   padding-left: 1rem;
+   margin-inline: .625rem;
+   margin-top: 1rem;
+   font-family: var(--font-inter);
+   font-weight: 400;
+   font-size: .75rem;
+   background-color: var(--color-grey-1);
+}
+
+.botao{
+    width: 17.925rem;
+    height: 3rem;
+    border: 2px solid var(--color-primary);
+    border-radius: .5rem;
+   padding-left: 1rem;
+   margin-left: 1.75rem;
+   margin-top: 1rem;
+   background-color: var(--color-primary);
+   font-weight: 500;
+   font-size: 1rem;
+   font-family: var(--font-inter);
+   color: var(--color-grey-1);
+}
