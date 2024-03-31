@@ -6,10 +6,20 @@
 }
 
 img{
-    display: flex;
-    align-items: center;
     margin-block-start: 2.3125rem;
-    margin-left: 3.125rem;
+    margin-left: 16.3125rem;
 }
 
 
+@media(max-width:37.5rem){
+    .headerLogo {
+        width: 24.375rem;
+        height: 4.3125rem;
+        background: --color-grey-1;
+        border: .125rem solid var(--color-grey-2);
+    }
+    img{
+        margin-bottom: 1.6875rem;
+        margin-left: 1.25rem;
+    }
+}

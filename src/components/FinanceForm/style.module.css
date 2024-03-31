@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 22.1875rem;
-    height: 24.625rem;
+    height: 27.125rem;
     border: .0625rem solid var(--color-grey-3);
     margin-top: 2.4375rem;
     border-radius: .5rem;
@@ -94,10 +94,22 @@
     border-radius: .5rem;
    padding-left: 1rem;
    margin-left: 1.75rem;
-   margin-top: 1rem;
+   margin-top: 1.625rem;
    background-color: var(--color-primary);
    font-weight: 500;
    font-size: 1rem;
    font-family: var(--font-inter);
    color: var(--color-grey-1);
+}
+
+@media(max-width: 37.5rem){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        width: 22.1875rem;
+        height: 27.125rem;
+        border: .0625rem solid var(--color-grey-3);
+        margin-top: 2.4375rem;
+        border-radius: .5rem;
+    }
 }
