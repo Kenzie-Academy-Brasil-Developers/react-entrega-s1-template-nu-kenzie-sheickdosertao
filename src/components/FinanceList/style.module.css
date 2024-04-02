@@ -3,6 +3,7 @@
     height: 28.75rem;
     margin-top: 2.4375rem;
     gap: 1rem;
+   
 }
 
 .h23{
@@ -12,7 +13,8 @@
     font-weight: 700;
     font-size: 1rem;
     color: var(--color-grey-4);
-    margin-left: 3rem;
+    margin-left: 42rem;
+    margin-top: -36rem;
 }
 
 @media(max-width: 37.5rem){
@@ -23,18 +25,16 @@
         width: 22.1875rem;
         height: 28.75rem;
         margin-top: 2.4375rem;
-        margin-left: 1.0625rem;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        align-content: center;
-        flex-direction: column;
-        display: block;
-        margin-bottom: 2.875rem;
+        margin-left: 15px;
+        
+        
+        
+        
     }
      .h23{
-        margin-left: 1rem;
-        align-self: self-start;
+    margin-left: 30px;
+    margin-top: 10px;
+        
     
 } 
 

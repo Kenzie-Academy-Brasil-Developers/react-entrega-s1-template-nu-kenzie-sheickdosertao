@@ -6,6 +6,7 @@
     border: .0625rem solid var(--color-grey-3);
     margin-top: 2.4375rem;
     border-radius: .5rem;
+    margin-left: 250px;
 }
 
 .div1{
@@ -109,7 +110,8 @@
         width: 22.1875rem;
         height: 27.125rem;
         border: .0625rem solid var(--color-grey-3);
-        margin-top: 2.4375rem;
+        margin-top: 1.4375rem;
         border-radius: .5rem;
+        margin-left: 15px;
     }
 }

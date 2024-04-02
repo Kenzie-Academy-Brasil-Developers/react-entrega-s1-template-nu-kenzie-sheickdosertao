@@ -1,3 +1,7 @@
+
+
+
+
 :root{
    --color-primary:  #FD377E;
    --color-primary-2: #E34981;
@@ -14,51 +18,5 @@
 }
 
 
-#grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 470px 355px 355px;
-  grid-template-areas:  "a b b"
-                        "c b b ";
-  gap: 1.1875rem;
-  height: 33rem;
 
-}
 
-#formFinance{
-  grid-area: a;
-  margin-left: 16.3125rem;
-}
-
-#listFinance{
-  grid-area: b;
-}
-
-#total{
-  grid-area: c;
-  margin-left: 16.3125rem;
-}
-
-@media(max-width: 37.5rem){
-  #grid {
-    display: flex;
-    
-    flex-wrap: wrap;
-  }
-
-  #formFinance{
-    grid-area: a;
-    margin-left: 1.3125rem;
-  }
-  #total{
-    grid-area: c;
-    margin-left: 1.3125rem;
-  }
-
-  #listFinance{
-    display: flex;
-    fle
-    margin-left: 1.3125rem;
-  }
-
-}

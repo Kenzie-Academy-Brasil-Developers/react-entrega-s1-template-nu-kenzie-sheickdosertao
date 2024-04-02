@@ -1,20 +1,20 @@
-import { FinanceForm } from "./components/FinanceForm";
+
 import { FinanceList } from './components/FinanceList/index';
 import { Header } from "./components/Header";
-import { Total } from "./components/Total";
+import "./Styles/Reset.css"
 
-function App() {
+
+function App( ) {
   
 
   return (
     <>
      <Header/>
      <main id="grid">
-      <FinanceForm/>
-     <Total/>
-     <FinanceList/>
-     </main>
-    
+      <FinanceList/>
+  
+     </main> 
+  
        
    </>
   )

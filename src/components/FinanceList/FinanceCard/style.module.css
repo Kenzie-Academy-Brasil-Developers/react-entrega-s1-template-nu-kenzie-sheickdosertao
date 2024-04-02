@@ -51,9 +51,9 @@
 
 @media(max-width:37.5rem){
     .divb{
-        display: block;
-        height: auto;
         width: 22.1875rem;
+        height: 9.75rem;
+        margin-left: 4px;
         
     }
     .h2b{

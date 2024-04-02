@@ -1,12 +1,13 @@
 .div3{
     width: 22.1875rem;
-    height: 6rem;
+    height: 7rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     border: .0625rem solid var(--color-grey-2);
     border-radius: .25rem;
-  
+    margin-left: 250px;
+    margin-top: 25px;
+    
 }
 
 .h22{
@@ -46,6 +47,6 @@
         align-items: center;
         border: .0625rem solid var(--color-grey-2);
         border-radius: .25rem;
-      
+        margin-left: 15px;
     }
 }
