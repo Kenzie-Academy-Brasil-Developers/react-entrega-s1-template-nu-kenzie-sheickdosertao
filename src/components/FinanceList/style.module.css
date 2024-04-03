@@ -1,41 +1,11 @@
-.secLista{
-    width: 560px;
-    height: 28.75rem;
-    margin-top: 2.4375rem;
-    gap: 1rem;
-   
-}
-
-.h23{
-    width: 8.75rem;
-    height: 1.875rem;
+.bruto{
+    width: 93.75rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     font-family: var(--font-nunito);
     font-weight: 700;
     font-size: 1rem;
     color: var(--color-grey-4);
-    margin-left: 42rem;
-    margin-top: -36rem;
-}
-
-@media(max-width: 37.5rem){
-   
-
-   
-    .secLista{
-        width: 22.1875rem;
-        height: 28.75rem;
-        margin-top: 2.4375rem;
-        margin-left: 15px;
-        
-        
-        
-        
-    }
-     .h23{
-    margin-left: 30px;
-    margin-top: 10px;
-        
     
-} 
-
 }

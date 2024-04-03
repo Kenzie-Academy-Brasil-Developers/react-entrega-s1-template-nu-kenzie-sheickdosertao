@@ -4,7 +4,9 @@ export const Total = ({ entre }) => {
 
     const subTotal = () => {
        const totalInteiro = entre.reduce((contador, valorAtual) => {
-        return valorAtual.formType === "entrada" ? contador + valorAtual.formNumero : contador - valorAtual.formNumero;
+        return valorAtual.formType === "entrada"
+         ? contador + valorAtual.formNumero 
+         : contador - valorAtual.formNumero;
        }, 0);
 
        return totalInteiro;

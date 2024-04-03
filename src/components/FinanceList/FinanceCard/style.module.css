@@ -1,23 +1,33 @@
 .divb{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    align-self: flex-end;
     width: 35rem;
+
     height: 5.625rem;
     background-color: var(--color-grey-1);
     border-radius: .25rem;
     border-left: .25rem solid var(--color-secundary);
-    margin-left: 3rem;
-    margin-bottom: .875rem;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+
+li{
+    display: flex;
+    
 }
 
 
 
 .h2b{
-    width: 21.25rem;
+    width: 20.25rem;
+    height: 2.4375rem;
     font-family: var(--font-nunito);
     font-weight: 700;
     font-size: 1rem;
+    padding-top: .5rem;
+    padding-left: .75rem;
+    
     
 
 
@@ -28,6 +38,9 @@
     font-family: var(--font-nunito);
     font-weight: 400;
     font-size: .75rem;
+    padding-top: 1.4375rem;
+    padding-left: 150px;
+
 
 }
 
@@ -38,7 +51,8 @@
     font-size: .625rem;
     font-weight: 400;
     border-radius: .25rem;
-    margin-left: 1.25rem;
+    margin-left: 9.905rem;
+    margin-top: .625rem;
 }
 
 .po{
@@ -47,41 +61,62 @@
     font-family: var(--font-nunito);
     font-size: .75rem;
     font-weight: 400;
+    padding-left: .75rem;
 }
 
 @media(max-width:37.5rem){
     .divb{
+        height: 9.6875rem;
         width: 22.1875rem;
-        height: 9.75rem;
-        margin-left: 4px;
-        
+        background-color: var(--color-grey-1);
+        border-radius: .25rem;
+        border-left: .25rem solid var(--color-secundary);
+    
+        gap: 2rem;
+    }
+
+    li{
+        gap: 1.25rem;
+        display: flex;
+        flex-wrap: wrap;
     }
     .h2b{
-        width: 21.25rem;
+        width: 21.0625rem;
+        height: 2.4375rem;
         font-family: var(--font-nunito);
         font-weight: 700;
         font-size: 1rem;
-        padding-left: .875rem;
-    
+        padding-top: .5rem;
+        padding-left: .75rem;
     
     }
     
+    .divtt{
+        width: 21.8125rem;
+        height: 77px;
+        display: flex;
+        flex-direction: column;
+    }
     .ps{
-        width: 4.375rem;
+        width: 6.375rem;
+        height: 1.375rem;
         font-family: var(--font-nunito);
         font-weight: 400;
         font-size: .75rem;
-        padding-left: .875rem;
+        padding-top: 1.4375rem;
+        padding-left: 150px;
     }
     
     .botao{
-        width: 3.1875rem;
-        height: 1.375rem;
+        height: 1.9375rem;
+        height: .875rem;
         font-family: var(--font-nunito);
         font-size: .625rem;
         font-weight: 400;
         border-radius: .25rem;
-        margin-left: 1.25rem;
+        margin-left: 26px;
+        margin-top: 7.5625rem;
+    
     }
     
     .po{
@@ -90,7 +125,6 @@
         font-family: var(--font-nunito);
         font-size: .75rem;
         font-weight: 400;
-        padding-left: .875rem;
-    }
+        padding-left: .75rem; }
 
 }

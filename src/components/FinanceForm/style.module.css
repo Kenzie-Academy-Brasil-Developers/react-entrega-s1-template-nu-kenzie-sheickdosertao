@@ -1,3 +1,8 @@
+.formFinance{
+    width: 45rem;
+   
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -6,7 +11,7 @@
     border: .0625rem solid var(--color-grey-3);
     margin-top: 2.4375rem;
     border-radius: .5rem;
-    margin-left: 250px;
+    margin-left: 16.3125rem;
 }
 
 .div1{
@@ -18,15 +23,18 @@
 }
 
 .label1{
-    margin: .75rem;
+    margin-left: .625rem;
     
     
 }
 
 .p1{
-    width: 9.875rem;
+    width: 7.875rem;
     height: 1.25rem;
     margin: .625rem;
+    font-family: var(--font-inter);
+    font-size: .75rem;
+    font-weight: 400;
 }
 
 .iput{
@@ -44,13 +52,13 @@
 .div2{
     flex-wrap: wrap;
     width: 19.625rem;
-    height: 10.5rem;
+    height: 11.5rem;
     margin: 0 auto;
     margin-top: 1.25rem;
 }
 
 .label2{
-    margin: .625rem;
+    margin-left: .625rem;
     font-family: var(--font-inter);
     font-weight: 400;
     font-size: .75rem;
@@ -63,15 +71,19 @@
     border-radius: .5rem;
    padding-left: 1rem;
    margin-inline: .625rem;
-   margin-top: 1rem;
+   margin-top: .625rem;
    background-color: var(--color-grey-1);
 }
 
 .label3{
-    margin: .625rem;
+
+    width: 4.625rem;
+    height: 1.375rem;
     font-family: var(--font-inter);
     font-weight: 400;
     font-size: .75rem;
+    margin-top: 15px;
+    margin-left: .625rem;
 }
 
 .selec1{
@@ -81,7 +93,7 @@
     border-radius: .5rem;
    padding-left: 1rem;
    margin-inline: .625rem;
-   margin-top: 1rem;
+   margin-top: 10px;
    font-family: var(--font-inter);
    font-weight: 400;
    font-size: .75rem;
@@ -104,6 +116,10 @@
 }
 
 @media(max-width: 37.5rem){
+    .formFinance{
+        width: 45rem;
+    }
+    
     .formulario{
         display: flex;
         flex-direction: column;

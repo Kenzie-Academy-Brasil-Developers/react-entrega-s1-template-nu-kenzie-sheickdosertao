@@ -9,7 +9,7 @@ export const FinanceCard2 = () => {
                <p className={Styles.po}>Despesas</p>
             </div>
             <div className={Styles.divtt}>
-                 <p className={Styles.ps}>R$ 6.660,00</p>
+                 <p className={Styles.ps}>{}</p>
                  <button className={Styles.botao}>Excluir</button>
             </div>
            

@@ -16,16 +16,19 @@
     font-size: 1rem;
     font-family: var(--font-nunito);
     padding-left: 1.4375rem;
+    padding-top: 1.25rem;
 
 }
 
 .pp{
-    width: 5.625rem;
+    width: 6.625rem;
+    height: 1.875rem;
     font-family: var(--font-nunito);
     font-weight: 700;
     font-size: 1rem;
     color: var(--color-primary);
     padding-left: 1rem;
+    padding-top: 1.25rem;
    
 }
 
@@ -48,5 +51,41 @@
         border: .0625rem solid var(--color-grey-2);
         border-radius: .25rem;
         margin-left: 15px;
+    }
+
+    .h22{
+        width: 5.3125rem;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: var(--font-nunito);
+        margin-left: 1.rem;
+        padding-top: .5rem;
+        height: 1.875rem;
+        margin-top: 1.rem;
+
+    
+    }
+    
+    .pp{
+        width: 6.875rem;
+        height: 1.875rem;
+        font-family: var(--font-nunito);
+        font-weight: 700;
+        font-size: 1rem;
+        color: var(--color-primary);
+        padding-left: 1rem;
+        padding-top: 1.25rem;
+        margin-left: 100px;
+       
+    }
+    
+    .pp2{
+        width: 8.75rem;
+        font-family: var(--font-nunito);
+        font-weight: 400;
+        font-size: .75rem;
+        color: var(--color-grey-3);
+         padding-left: 1.4375rem;
+         margin-bottom: 1.25rem;
     }
 }

@@ -21,7 +21,7 @@ export const FinanceForm = ({ addEntre }) => {
     
     return (
 
-    <section id="formFinance">
+    <section className={Styles.formFinance}>
          <form onSubmit={submit} className={Styles.formulario}>
              <div className={Styles.div1}>
                 <label htmlFor="texto" className={Styles.label1}>Descricao</label>
