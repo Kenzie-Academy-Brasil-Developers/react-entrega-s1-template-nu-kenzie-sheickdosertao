@@ -1,23 +1,33 @@
+.sect{
+    width: 100%;
+    height: 100%;
+    margin-top: -390px;
+}
+
 .divb{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    align-self: flex-end;
     width: 35rem;
-
     height: 5.625rem;
-    background-color: var(--color-grey-1);
-    border-radius: .25rem;
-    border-left: .25rem solid var(--color-secundary);
-    margin-left: 5rem;
     gap: 2rem;
+    
 }
 
 li{
     display: flex;
+    background-color: var(--color-grey-1);
+    border-radius: .25rem;
+    border-left: .25rem solid var(--color-secundary);  
     
 }
 
-
+.divtt{
+    width: 21.8125rem;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+}
 
 .h2b{
     width: 20.25rem;
@@ -39,7 +49,7 @@ li{
     font-weight: 400;
     font-size: .75rem;
     padding-top: 1.4375rem;
-    padding-left: 150px;
+    padding-left: 130px;
 
 
 }
@@ -51,8 +61,9 @@ li{
     font-size: .625rem;
     font-weight: 400;
     border-radius: .25rem;
-    margin-left: 9.905rem;
+    margin-left: 8.905rem;
     margin-top: .625rem;
+    background-color: var(--color-grey-2);
 }
 
 .po{
@@ -64,21 +75,29 @@ li{
     padding-left: .75rem;
 }
 
-@media(max-width:37.5rem){
+@media(max-width: 37.5rem){
+    .sect{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3.125rem;
+        margin-left: 1rem;
+        margin-top: 20px;
+    }
     .divb{
-        height: 9.6875rem;
-        width: 22.1875rem;
-        background-color: var(--color-grey-1);
-        border-radius: .25rem;
-        border-left: .25rem solid var(--color-secundary);
-    
-        gap: 2rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+
     }
 
     li{
-        gap: 1.25rem;
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: var(--color-grey-1);
+        border-radius: .25rem;
+        border-left: .25rem solid var(--color-secundary);
+        width: 22.1875rem;
+        height: 10rem;
+       
     }
     .h2b{
         width: 21.0625rem;
@@ -91,31 +110,27 @@ li{
     
     }
     
-    .divtt{
-        width: 21.8125rem;
-        height: 77px;
-        display: flex;
-        flex-direction: column;
-    }
+
     .ps{
-        width: 6.375rem;
+        width: 7.375rem;
         height: 1.375rem;
         font-family: var(--font-nunito);
         font-weight: 400;
         font-size: .75rem;
-        padding-top: 1.4375rem;
-        padding-left: 150px;
+        margin-left: -7.25rem;
+        
     }
     
     .botao{
-        height: 1.9375rem;
-        height: .875rem;
+        height: 1.1875rem;
+        width: 3rem;
         font-family: var(--font-nunito);
         font-size: .625rem;
         font-weight: 400;
         border-radius: .25rem;
-        margin-left: 26px;
-        margin-top: 7.5625rem;
+        margin-left: 20px;
+        margin-bottom: 6px;
+        
     
     }
     

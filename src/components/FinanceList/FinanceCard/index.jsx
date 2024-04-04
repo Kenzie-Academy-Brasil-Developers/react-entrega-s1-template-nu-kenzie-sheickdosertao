@@ -1,5 +1,6 @@
 
 import "../../../Styles/reset.css"
+
 import Styles from "./style.module.css"
 
 
@@ -8,12 +9,14 @@ export const FinanceCard = ({entre, removeItem}) => {
   
     return (
 
-        <section>
+        <section className={Styles.sect} id="sect">
 
 
-            {entre.map((entris) => {
+              <ul className={Styles.divb}>
+
+                 {entre.map((entris) => {
                 return(
-                    <div className={Styles.divb} key={entris.id}>
+                    <li  key={entris.id}>
                         <div className={Styles.divss} >
                             <h2 className={Styles.h2b}> {entris.formSoma} </h2>
                             <p className={Styles.po}> {entris.formType} </p>
@@ -24,10 +27,13 @@ export const FinanceCard = ({entre, removeItem}) => {
                                currency: "BRL",} )}</p>
                               <button onClick={() => removeItem(entris.id)} className={Styles.botao}>Excluir</button>
                         </div>
-                    </div>
+                    </li>
                     
                 )
             })}
+              </ul>
+           
+           
         </section>
       
 

@@ -1,4 +1,5 @@
-import Styles from "../FinanceList/Style.module.css";
+
+import "../../Styles/Global.css"
 
 export const FinanceList = ({ children }) => {
 
@@ -7,8 +8,8 @@ export const FinanceList = ({ children }) => {
     return (
        
       <>
-       <h2>Resumo financeiro</h2>
-       <main className={Styles.bruto}>{children}</main>
+       
+       <main className="bruto">{children}</main>
              
       </>
        

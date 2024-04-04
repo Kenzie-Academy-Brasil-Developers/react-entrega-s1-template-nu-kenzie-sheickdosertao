@@ -18,5 +18,55 @@
 }
 
 
+.bruto{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "a d"
+                       "c b";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.formFinance{
+  grid-area: a;
+}
 
 
+
+.h22{
+  grid: d;
+  height: 50px;
+  margin-top: 2.4375rem;
+}
+
+
+#total{
+    grid-area: c;
+}
+
+
+@media (max-width: 768px) {
+
+  .bruto{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #total{
+
+    margin-left: 1rem;
+  }
+
+  #sect{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3.125rem;
+    margin-left: 1rem;
+  }
+
+  .h22{
+    margin-left: 1rem;
+  }
+}

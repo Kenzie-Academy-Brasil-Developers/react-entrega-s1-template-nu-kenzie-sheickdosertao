@@ -1,11 +1,11 @@
 import { useState } from "react"
 import { FinanceForm } from './components/FinanceForm';
-import "./Styles/Global.css"
+import "./Styles/index.css"
 import { FinanceList } from './components/FinanceList/index';
 import { Header } from "./components/Header";
 import { Total } from "./components/Total";
 import { FinanceCard } from "./components/FinanceList/FinanceCard";
-import { FinanceCard2 } from "./components/FinanceList/FinanceCard2";
+
 
 
 
@@ -36,11 +36,13 @@ function App( ) {
 
               
               <FinanceForm addEntre={addEntre}/>
-               
+               <Total entre={entre} addEntre={addEntre}/>
+              <h2 className="h22">Resumo financeiro</h2>
               <FinanceCard entre={entre} removeItem={removeItem}/>
-                <Total entre={entre} addEntre={addEntre}/>
+            
+               
         
-              <FinanceCard2 entre={entre} removeItem={removeItem}/> 
+             
              
               
         
