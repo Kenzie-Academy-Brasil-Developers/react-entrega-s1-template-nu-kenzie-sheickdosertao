@@ -1,11 +1,12 @@
 .div3{
+     display: flex;
+    flex-wrap: wrap;
     width: 22.1875rem;
     height: 7rem;
-    display: flex;
-    flex-wrap: wrap;
+   
     border: .0625rem solid var(--color-grey-2);
     border-radius: .25rem;
-    margin-left: 260px;
+    margin-left: 16.3125rem;
     margin-top: 25px;
     
 }
@@ -41,8 +42,9 @@
      padding-left: 1.4375rem;
 }
 
-@media(max-width: 37.5rem) {
+@media(max-width: 50rem) {
     .div3{
+        margin-left: 1rem;
         width: 22.1875rem;
         height: 7rem;
         border: .0625rem solid var(--color-grey-2);

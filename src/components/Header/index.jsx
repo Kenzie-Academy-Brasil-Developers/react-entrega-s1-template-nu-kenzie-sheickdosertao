@@ -3,7 +3,7 @@ import  "../../Styles/Global.css"
 export const Header = ( ) => {
     return (
         <header className={Styles.headerLogo}>
-            <img className={Styles.img2} src="../../../src/assets/img/Nu Kenzie.png" alt="logo" />
+          <h1 className={Styles.img2}><span className={Styles.sp}>Nu</span>kenzie</h1>
         </header>
     )
 }

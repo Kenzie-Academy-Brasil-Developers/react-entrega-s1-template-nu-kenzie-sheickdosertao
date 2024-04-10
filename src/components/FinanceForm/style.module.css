@@ -112,7 +112,7 @@
    color: var(--color-grey-1);
 }
 
-@media(max-width: 37.5rem){
+@media(max-width: 50rem){
     .formFinance{
         width: 22.1875rem;
     }
