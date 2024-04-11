@@ -1,4 +1,4 @@
-.div3{
+.divisao3{
      display: flex;
     flex-wrap: wrap;
     width: 22.1875rem;
@@ -43,7 +43,7 @@
 }
 
 @media(max-width: 50rem) {
-    .div3{
+    .divisao3{
         margin-left: 1rem;
         width: 22.1875rem;
         height: 7rem;

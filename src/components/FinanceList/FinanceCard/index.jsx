@@ -9,23 +9,23 @@ export const FinanceCard = ({entre, removeItem}) => {
   
     return (
 
-        <section className={Styles.sect} id="sect">
+        <section className={Styles.selecionar5} id="selecionar5">
 
 
-              <ul className={Styles.divb}>
+              <ul className={Styles.divisaob}>
 
-                 {entre.map((entris) => {
+                 {entre.map((inicio) => {
                 return(
-                    <li  key={entris.id}>
-                        <div className={Styles.divss} >
-                            <h2 className={Styles.h2b}> {entris.formSoma} </h2>
-                            <p className={Styles.po}> {entris.formType} </p>
+                    <li  key={inicio.id}>
+                        <div>
+                            <h2 className={Styles.h2b}> {inicio.formularioSoma} </h2>
+                            <p className={Styles.po}> {inicio.formularioTipo} </p>
                         </div>
-                        <div  className={Styles.divtt}>
-                              <p className={Styles.ps}> {entris.formNumero.toLocaleString("pt-BR", {
+                        <div  className={Styles.divisaott}>
+                              <p className={Styles.ps}> {inicio.formularioNumero.toLocaleString("pt-BR", {
                                style: "currency",
                                currency: "BRL",} )}</p>
-                              <button onClick={() => removeItem(entris.id)} className={Styles.botao}>Excluir</button>
+                              <button onClick={() => removeItem(inicio.id)} className={Styles.botao}>Excluir</button>
                         </div>
                     </li>
                     
