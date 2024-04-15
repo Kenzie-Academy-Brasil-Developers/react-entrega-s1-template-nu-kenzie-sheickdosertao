@@ -22,6 +22,7 @@ const  App = ( ) =>{
       const novaRenderize = [...entre, novaLista];
       setEntre(novaRenderize);
 
+  
   }
   
    
@@ -37,7 +38,7 @@ const  App = ( ) =>{
 
               
               <FinanceForm addEntre={addEntre}/>
-               <Total entre={entre} addEntre={addEntre}/>
+               <Total entre={entre}/>
               <h2 className="h22">Resumo financeiro</h2>
               <FinanceCard entre={entre} removeItem={removeItem}/>
           

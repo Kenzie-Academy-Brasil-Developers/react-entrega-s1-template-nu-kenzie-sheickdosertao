@@ -1,17 +1,20 @@
 import Styles from "./style.module.css";
 
-export const Total = ({ entre }) => {
+
+export const Total = ({  entre }) => {
 
     const subTotal = () => {
-       const totalInteiro = entre.reduce((contador, valorAtual) => {
-        return valorAtual.formulariotipo === "entrada"
-         ? contador + valorAtual.formularioNumero 
-         : contador - valorAtual.formularioNumero;
+       const totalInteiro =  entre.reduce((contador, valorAtual) => {
+        return valorAtual.formulariotipo === "Entrada"
+         ? contador - valorAtual.formularioNumero
+         : contador + valorAtual.formularioNumero;
        }, 0);
 
        return totalInteiro;
 
+      
       };
+ console.log(entre)
 
       
     return (

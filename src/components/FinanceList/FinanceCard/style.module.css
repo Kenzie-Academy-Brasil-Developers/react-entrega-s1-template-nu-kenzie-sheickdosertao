@@ -18,7 +18,15 @@ li{
     display: flex;
     background-color: var(--color-grey-1);
     border-radius: .25rem;
-    border-left: .25rem solid var(--color-secundary);  
+    border-left: .25rem solid var(--color-secundary);
+    
+}
+
+.card{
+    display: flex;
+    background-color: var(--color-grey-1);
+    border-radius: .25rem;
+    border-left: .25rem solid var(--color-grey-2);
     
 }
 
